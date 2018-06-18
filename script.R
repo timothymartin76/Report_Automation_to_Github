@@ -16,7 +16,7 @@ library(RJDBC)
 setwd("C:/Filings_Comparison/Data")
 
 drv <- JDBC("oracle.bi.jdbc.AnaJdbcDriver","bijdbc.jar")
-conn <- dbConnect(drv, "jdbc:oraclebi://sprdorabiw-hq.buildings.nycnet:9703/", "tmartin", "XXXXXX")
+conn <- dbConnect(drv, "jdbc:oraclebi://sprdorabiw-hq.buildings.nycnet:9703/", "username", "password")
 
 
 ### BIS filings data from Oracle
