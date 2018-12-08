@@ -15,7 +15,7 @@ library(RJDBC)
 
 setwd("C:/Filings_Comparison/Data")
 
-drv <- JDBC("oracle.bi.jdbc.AnaJdbcDriver","bijdbc.jar")
+drv <- JDBC("oracle.bi.jdbc.AnaJdbcDriver","jarfile.jar")
 conn <- dbConnect(drv, "jdbc:oraclebi://sprdorabiw-hq.buildings.nycnet:9703/", "username", "password")
 
 
